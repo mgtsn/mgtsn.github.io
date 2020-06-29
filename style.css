@@ -37,7 +37,7 @@ div {
     background-color: rgb(159, 245, 163);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 3.5in) {
     #page {
         max-width: 100%;
         min-width: 100%;
