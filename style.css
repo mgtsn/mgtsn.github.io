@@ -2,31 +2,52 @@ html {
     height: 100%;
 }
 
-header {
-    font-size: larger;
-}
-
 body {
-    background-color: rgb(236, 244, 255);
     display: flex;
     flex-direction: column;
-    margin: none;
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
     width: 100%;
+    margin: 0;
+    background-color: rgb(255, 241, 110);
 }
 
-.phrase {
-    text-align: center;
-    padding: 20px;
-    width: 25vw;
-    font-size: 1em;
-    border-radius: 25px;
-    background-color: rgb(255, 154, 154);
+div {
+    margin: 10px;
+    border-radius: 4px;
 }
 
-a {
-    color: rgb(82, 82, 82);
+#page {
+    flex-basis: 70%;
+    max-height: 425px;
+    min-height: 425px;
+    max-width: 425px;
+    min-width: 425px;
+    background-color: rgb(255, 159, 175);
 }
 
+#scroll {
+    flex-basis: 20%;
+    max-height: 75px;
+    min-height: 75px;
+    max-width: 425px;
+    min-width: 425px;
+    background-color: rgb(159, 245, 163);
+}
+
+@media (max-width: 400px) {
+    #page {
+        width: 100%;
+        height: 70%;
+    }
+
+    #height {
+        width: 100%;
+        height: 20%;
+    }
+
+    #body {
+        background-color: black;
+    }
+}
