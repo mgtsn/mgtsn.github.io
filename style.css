@@ -40,19 +40,20 @@ body {
 body section {
     float: top;
     display: block;
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 body section h1 {
     text-align: center;
     font-size: 2em;
-    padding-top: 20px;
+    margin-top: 0px;
+    /* padding-top: 20px; */
 }
 
 
-body section div {
+/* body section div {
     padding: 20px;
-}
+} */
 
 hr {
     border: 1px solid rgb(121, 121, 121);
@@ -64,12 +65,13 @@ img {
     height: 140px;
 }
 
-#about {
+#portfolio div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
-#portfolio {
-
-}
-
-#contact {
+#portfolio div div {
+    padding: 0px 10px;
 }
