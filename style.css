@@ -20,7 +20,7 @@ header a{
     
 }
 
-#Name {
+#home {
     float: left;
     display: block;
     padding: 15px 20px;
@@ -70,6 +70,7 @@ img {
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-bottom: 20px;
 }
 
 #portfolio div div {
